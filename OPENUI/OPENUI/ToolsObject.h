@@ -18,5 +18,6 @@ typedef enum {
 + (NSString *)dealTimeWithTime:(long)time Type:(TIMETYPE)type;
 + (BOOL)validateEmail:(NSString *)email;
 + (NSInteger)countHeght:(NSString *)str;
++ (void)logTheInstanceIvar:(id)instance;
 
 @end

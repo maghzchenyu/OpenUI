@@ -55,11 +55,9 @@ static const float kZoom = 1.1f;
     emojiCallbacks.getAscent    = TQRichTextRunEmojiDelegateGetAscentCallback;
     emojiCallbacks.getDescent   = TQRichTextRunEmojiDelegateGetDescentCallback;
     emojiCallbacks.getWidth     = TQRichTextRunEmojiDelegateGetWidthCallback;
-     
     
     NSMutableAttributedString *imageAttributedString = [[NSMutableAttributedString alloc] initWithString:@" "];
     
-    //
     CTRunDelegateRef runDelegate = CTRunDelegateCreate(&emojiCallbacks, (__bridge void*)self);
     [imageAttributedString addAttribute:(NSString *)kCTRunDelegateAttributeName value:(__bridge id)runDelegate range:NSMakeRange(0, 1)];
     CFRelease(runDelegate);

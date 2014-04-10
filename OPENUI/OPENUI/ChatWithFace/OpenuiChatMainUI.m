@@ -11,12 +11,17 @@
 
 #define textFieldTag 10
 
+
 @interface OpenuiChatMainUI ()
 
 @end
 
 @implementation OpenuiChatMainUI
 
+- (void)dealloc
+{
+    //CYLog_Info(@"the %@ dealloc happen",self);
+}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -246,6 +251,8 @@
         data.contentString = [NSString stringWithFormat:@"%@",self.textField.text];
         data.nameString = @"Jack";
         //data.lineCount = [ToolsObject countHeght:data.contentString];
+        CGSize size = [self.textField.text sizeWithFont:[UIFont systemFontOfSize:18.0] constrainedToSize:CGSizeMake(300, MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
+    
     }
     
     [self.tableController.dataArray addObject:data];

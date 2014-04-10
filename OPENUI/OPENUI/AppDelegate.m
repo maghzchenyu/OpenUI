@@ -28,6 +28,7 @@
 #ifdef memory_test
     //NSTimer *timerMemory = [NSTimer scheduledTimerWithTimeInterval:memory_time target:self selector:@selector(outputMemory) userInfo:nil repeats:YES];
     NSTimer *timerMemory = [NSTimer scheduledTimerWithTimeInterval:memory_time target:self selector:@selector(outputMemory) userInfo:nil repeats:YES];
+    CYLog_Info(@"the timer is %@",timerMemory);
 #endif
     
     return YES;

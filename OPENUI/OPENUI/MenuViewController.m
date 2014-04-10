@@ -9,6 +9,7 @@
 #import "MenuViewController.h"
 #import <objc/runtime.h>
 #import "OpenuiChatMainUI.h"
+#import "ThemeRightViewController.h"
 @interface MenuViewController ()
 
 @end
@@ -20,6 +21,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+
     }
     return self;
 }
@@ -57,28 +59,12 @@
     }
     
     UITableView *table = [[UITableView alloc] initWithFrame:self.view.bounds];
-    
     table.delegate = self;
     table.dataSource = self;
     if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
         table.separatorInset =  UIEdgeInsetsZero;
     [self.view addSubview:table];
-    
-    OpenuiChatMainUI *label = [[OpenuiChatMainUI alloc] init];
-    unsigned int numIvars = 0;
-    NSString *key=nil;
-    Ivar * ivars = class_copyIvarList([label class], &numIvars);
-    for(int i = 0; i < numIvars; i++) {
-        Ivar thisIvar = ivars[i];
-        key = [NSString stringWithUTF8String:ivar_getName(thisIvar)];
-        CYLog_Info(@"the class ivar label is %@",key);
-    }
-    free(ivars);
-    /*测试类成员变量
-    {
-     
-    }
-     */
+    //[ToolsObject logTheInstanceIvar:[[[UILabel superclass] alloc] init]];
 }
 
 - (void)didReceiveMemoryWarning

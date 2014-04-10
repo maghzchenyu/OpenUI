@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2DFCFC18F64B5E0075C1C2 /* ChatLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFCFB18F64B5E0075C1C2 /* ChatLabelCell.m */; };
+		AB2DFD0118F670B60075C1C2 /* OpenuiChangeTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFD0018F670B60075C1C2 /* OpenuiChangeTheme.m */; };
+		AB2DFD0418F6713C0075C1C2 /* ThemeBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFD0318F6713C0075C1C2 /* ThemeBaseButton.m */; };
+		AB2DFD0718F673320075C1C2 /* ThemeBaseVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFD0618F673320075C1C2 /* ThemeBaseVIew.m */; };
+		AB2DFD0D18F674B70075C1C2 /* ThemeLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFD0C18F674B70075C1C2 /* ThemeLeftViewController.m */; };
+		AB2DFD1018F674D30075C1C2 /* ThemeRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFD0F18F674D30075C1C2 /* ThemeRightViewController.m */; };
+		AB2DFD1218F67BEF0075C1C2 /* TabbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2DFD1118F67BEF0075C1C2 /* TabbarView.xib */; };
 		ABAFA0E418F3800E005C68BB /* ChatContentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAFA0E318F3800E005C68BB /* ChatContentObject.m */; };
 		ABAFA0E718F3851E005C68BB /* ToolsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAFA0E618F3851E005C68BB /* ToolsObject.m */; };
 		ABAFA0EA18F385F4005C68BB /* OpenAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAFA0E918F385F4005C68BB /* OpenAlertView.m */; };
@@ -88,6 +95,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB2DFCFA18F64B5E0075C1C2 /* ChatLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatLabelCell.h; sourceTree = "<group>"; };
+		AB2DFCFB18F64B5E0075C1C2 /* ChatLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatLabelCell.m; sourceTree = "<group>"; };
+		AB2DFCFF18F670B60075C1C2 /* OpenuiChangeTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenuiChangeTheme.h; sourceTree = "<group>"; };
+		AB2DFD0018F670B60075C1C2 /* OpenuiChangeTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenuiChangeTheme.m; sourceTree = "<group>"; };
+		AB2DFD0218F6713C0075C1C2 /* ThemeBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeBaseButton.h; sourceTree = "<group>"; };
+		AB2DFD0318F6713C0075C1C2 /* ThemeBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeBaseButton.m; sourceTree = "<group>"; };
+		AB2DFD0518F673320075C1C2 /* ThemeBaseVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeBaseVIew.h; sourceTree = "<group>"; };
+		AB2DFD0618F673320075C1C2 /* ThemeBaseVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeBaseVIew.m; sourceTree = "<group>"; };
+		AB2DFD0B18F674B70075C1C2 /* ThemeLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeLeftViewController.h; sourceTree = "<group>"; };
+		AB2DFD0C18F674B70075C1C2 /* ThemeLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeLeftViewController.m; sourceTree = "<group>"; };
+		AB2DFD0E18F674D30075C1C2 /* ThemeRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeRightViewController.h; sourceTree = "<group>"; };
+		AB2DFD0F18F674D30075C1C2 /* ThemeRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeRightViewController.m; sourceTree = "<group>"; };
+		AB2DFD1118F67BEF0075C1C2 /* TabbarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabbarView.xib; sourceTree = "<group>"; };
 		ABAFA0E218F3800E005C68BB /* ChatContentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatContentObject.h; sourceTree = "<group>"; };
 		ABAFA0E318F3800E005C68BB /* ChatContentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatContentObject.m; sourceTree = "<group>"; };
 		ABAFA0E518F3851E005C68BB /* ToolsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsObject.h; sourceTree = "<group>"; };
@@ -201,6 +221,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB2DFCFE18F670940075C1C2 /* ChangeTheme */ = {
+			isa = PBXGroup;
+			children = (
+				AB2DFCFF18F670B60075C1C2 /* OpenuiChangeTheme.h */,
+				AB2DFD0018F670B60075C1C2 /* OpenuiChangeTheme.m */,
+				AB2DFD1118F67BEF0075C1C2 /* TabbarView.xib */,
+				AB2DFD0218F6713C0075C1C2 /* ThemeBaseButton.h */,
+				AB2DFD0318F6713C0075C1C2 /* ThemeBaseButton.m */,
+				AB2DFD0518F673320075C1C2 /* ThemeBaseVIew.h */,
+				AB2DFD0618F673320075C1C2 /* ThemeBaseVIew.m */,
+				AB2DFD0B18F674B70075C1C2 /* ThemeLeftViewController.h */,
+				AB2DFD0C18F674B70075C1C2 /* ThemeLeftViewController.m */,
+				AB2DFD0E18F674D30075C1C2 /* ThemeRightViewController.h */,
+				AB2DFD0F18F674D30075C1C2 /* ThemeRightViewController.m */,
+			);
+			path = ChangeTheme;
+			sourceTree = "<group>";
+		};
 		ABFAC81018EE7583005F4009 = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +288,7 @@
 				ABAFA0E818F385F4005C68BB /* OpenAlertView.h */,
 				ABAFA0E918F385F4005C68BB /* OpenAlertView.m */,
 				ABFAC82E18EE7583005F4009 /* Images.xcassets */,
+				AB2DFCFE18F670940075C1C2 /* ChangeTheme */,
 				ABFAC87318EE8CB3005F4009 /* ChatWithFace */,
 				ABFAC86E18EE7E6E005F4009 /* OpenSource */,
 				ABFAC82318EE7583005F4009 /* Supporting Files */,
@@ -306,6 +345,8 @@
 				ABAFA0E318F3800E005C68BB /* ChatContentObject.m */,
 				ABAFA11918F3AD3A005C68BB /* ChatNormalCell.h */,
 				ABAFA11A18F3AD3A005C68BB /* ChatNormalCell.m */,
+				AB2DFCFA18F64B5E0075C1C2 /* ChatLabelCell.h */,
+				AB2DFCFB18F64B5E0075C1C2 /* ChatLabelCell.m */,
 				ABAFA11618F3ACC3005C68BB /* ChatContextView.h */,
 				ABAFA11718F3ACC3005C68BB /* ChatContextView.m */,
 				ABAFA14918F3CAE2005C68BB /* ChatImageUnit.h */,
@@ -460,6 +501,7 @@
 				ABAFA14518F3C0EF005C68BB /* f038.png in Resources */,
 				ABAFA10F18F39093005C68BB /* f013.png in Resources */,
 				ABAFA11518F39093005C68BB /* f019.png in Resources */,
+				AB2DFD1218F67BEF0075C1C2 /* TabbarView.xib in Resources */,
 				ABAFA13A18F3C0EF005C68BB /* f027.png in Resources */,
 				ABAFA13418F3C0EF005C68BB /* f021.png in Resources */,
 				ABAFA13318F3C0EF005C68BB /* f020.png in Resources */,
@@ -504,17 +546,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAFA11818F3ACC3005C68BB /* ChatContextView.m in Sources */,
+				AB2DFD0D18F674B70075C1C2 /* ThemeLeftViewController.m in Sources */,
 				ABAFA0E418F3800E005C68BB /* ChatContentObject.m in Sources */,
+				AB2DFD0418F6713C0075C1C2 /* ThemeBaseButton.m in Sources */,
 				ABFAC87218EE8931005F4009 /* OpenuiViewController.m in Sources */,
 				ABAFA0E718F3851E005C68BB /* ToolsObject.m in Sources */,
 				ABFAC87718EE8D25005F4009 /* OpenuiChatMainUI.m in Sources */,
 				ABFAC82D18EE7583005F4009 /* AppDelegate.m in Sources */,
 				ABAFA0EA18F385F4005C68BB /* OpenAlertView.m in Sources */,
+				AB2DFD0718F673320075C1C2 /* ThemeBaseVIew.m in Sources */,
 				ABFAC85318EE76FF005F4009 /* BaseViewController.m in Sources */,
 				ABAFA11B18F3AD3A005C68BB /* ChatNormalCell.m in Sources */,
 				ABFAC85018EE762F005F4009 /* CommonNavViewController.m in Sources */,
+				AB2DFCFC18F64B5E0075C1C2 /* ChatLabelCell.m in Sources */,
+				AB2DFD1018F674D30075C1C2 /* ThemeRightViewController.m in Sources */,
 				ABFAC84D18EE75A8005F4009 /* MenuViewController.m in Sources */,
 				ABAFA0ED18F38B28005C68BB /* OpenChatTableController.m in Sources */,
+				AB2DFD0118F670B60075C1C2 /* OpenuiChangeTheme.m in Sources */,
 				ABCABAA118F4E5A600E5DAE5 /* ChatLabel.m in Sources */,
 				ABFAC82918EE7583005F4009 /* main.m in Sources */,
 				ABAFA14B18F3CAE2005C68BB /* ChatImageUnit.m in Sources */,

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChatLabel.h"
 
-@interface ChatLabelCell : UILabel
+@interface ChatLabelCell : UITableViewCell
+
+@property (nonatomic, strong) UILabel *nameLable;
+@property (nonatomic, strong) UILabel *timeLable;
+@property (nonatomic, strong) ChatLabel *contextLabel;
 
 @end

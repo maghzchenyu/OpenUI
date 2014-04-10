@@ -114,5 +114,18 @@
     return count;
     
 }
+#import <objc/runtime.h>
++ (void)logTheInstanceIvar:(id)instance
+{
+    unsigned int numIvars = 0;
+    NSString *key=nil;
+    Ivar * ivars = class_copyIvarList([instance class], &numIvars);
+    for(int i = 0; i < numIvars; i++) {
+        Ivar thisIvar = ivars[i];
+        key = [NSString stringWithUTF8String:ivar_getName(thisIvar)];
+        CYLog_Info(@"the class ivar label is %@",key);
+    }
+    free(ivars);
+}
 
 @end

@@ -17,7 +17,7 @@
 #define test_time_for_repeat 1 //测试函数间隔多久调用一次 /s
 #define memory_time 60  //内存打印函数多久调用一次 /s
 #define IOS_SYSTEM ([[[UIDevice currentDevice] systemVersion] floatValue])
-
+#define LOG_THE_IVAR
 /* 日志打印函数  */
 #define CYLog_Info(format,...)    NSLog(@"[INFO] {%s,%d}" format, __FUNCTION__,__LINE__,##__VA_ARGS__)
 #define CYLog_Error(format,...)   NSLog(@"[ERROR] {%s,%d}" format, __FUNCTION__,__LINE__,##__VA_ARGS__)

@@ -7,9 +7,14 @@
 //
 
 #import "OpenAlertView.h"
+#import "Header.h"
 
 @implementation OpenAlertView
 
+- (void)dealloc
+{
+    CYLog_Info(@"the %@ dealloc happen",self);
+}
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

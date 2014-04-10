@@ -74,7 +74,7 @@
     {
         if (defaultType == self.type)
         {
-            cell = [[ChatNormalCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+            cell = [[ChatNormalCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier withChatType:self.type];
         }
     }
     
@@ -90,6 +90,12 @@
     }else if(WechatType == self.type)
     {
         
+    }else if(LabelType == self.type)
+    {
+        ChatNormalCell *cell1 = (ChatNormalCell *)cell;
+        cell1.nameLable.text = data.nameString;
+        cell1.timeLable.text = data.timeString;
+        cell1.timeLable.text = data.attString;
     }
     
     return cell;
@@ -99,6 +105,8 @@
 {
     if ( defaultType==self.type ){
         return (30 +((ChatContentObject *)[self.dataArray objectAtIndex:indexPath.row]).lineCount*25);
+    }else if(LabelType == self.type){
+        return (30 +((ChatContentObject *)[self.dataArray objectAtIndex:indexPath.row]).realHeght);
     }
     return 100;
 }

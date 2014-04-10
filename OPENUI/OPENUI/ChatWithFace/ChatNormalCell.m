@@ -10,7 +10,7 @@
 
 @implementation ChatNormalCell
 
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier withChatType:(ChatType)type
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self)
@@ -20,11 +20,16 @@
         [self addSubview:self.nameLable];
         self.timeLable = [[UILabel alloc] initWithFrame:CGRectMake(140, 5, 180, 20)];
         [self addSubview:self.timeLable];
-        self.contextView = [[ChatContextView alloc] init];
-        self.contextView.frame = CGRectMake(20, 30, 300, 25);
-        [self addSubview:self.contextView];
-        self.contextView.backgroundColor = [UIColor clearColor];
-        
+        if (type == defaultType) {
+            self.contextView = [[ChatContextView alloc] init];
+            self.contextView.frame = CGRectMake(20, 30, 300, 25);
+            [self addSubview:self.contextView];
+            self.contextView.backgroundColor = [UIColor clearColor];
+        }else if (type==LabelType){
+            self.contextLabel = [[ChatLabel alloc] init];
+            self.contextLabel.frame = CGRectMake(20, 30, 300, 30);
+            [self addSubview:self.contextLabel];
+        }
     }
     return self;
 }

@@ -15,5 +15,6 @@
 @property (nonatomic, strong) NSString *timeString;
 @property (nonatomic, strong) NSString *nameString;
 @property (nonatomic, assign) NSInteger lineCount;
+@property (nonatomic, assign) float realHeght;
 
 @end

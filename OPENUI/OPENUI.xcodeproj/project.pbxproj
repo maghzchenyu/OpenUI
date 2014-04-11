@@ -14,6 +14,7 @@
 		AB2DFD0D18F674B70075C1C2 /* ThemeLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFD0C18F674B70075C1C2 /* ThemeLeftViewController.m */; };
 		AB2DFD1018F674D30075C1C2 /* ThemeRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFD0F18F674D30075C1C2 /* ThemeRightViewController.m */; };
 		AB2DFD1218F67BEF0075C1C2 /* TabbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2DFD1118F67BEF0075C1C2 /* TabbarView.xib */; };
+		AB2DFD1518F69E890075C1C2 /* NotificationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2DFD1418F69E890075C1C2 /* NotificationObject.m */; };
 		ABAFA0E418F3800E005C68BB /* ChatContentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAFA0E318F3800E005C68BB /* ChatContentObject.m */; };
 		ABAFA0E718F3851E005C68BB /* ToolsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAFA0E618F3851E005C68BB /* ToolsObject.m */; };
 		ABAFA0EA18F385F4005C68BB /* OpenAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAFA0E918F385F4005C68BB /* OpenAlertView.m */; };
@@ -108,6 +109,9 @@
 		AB2DFD0E18F674D30075C1C2 /* ThemeRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeRightViewController.h; sourceTree = "<group>"; };
 		AB2DFD0F18F674D30075C1C2 /* ThemeRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeRightViewController.m; sourceTree = "<group>"; };
 		AB2DFD1118F67BEF0075C1C2 /* TabbarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabbarView.xib; sourceTree = "<group>"; };
+		AB2DFD1318F69E890075C1C2 /* NotificationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationObject.h; sourceTree = "<group>"; };
+		AB2DFD1418F69E890075C1C2 /* NotificationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationObject.m; sourceTree = "<group>"; };
+		AB2DFD1618F69EA00075C1C2 /* ThemeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeHeader.h; sourceTree = "<group>"; };
 		ABAFA0E218F3800E005C68BB /* ChatContentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatContentObject.h; sourceTree = "<group>"; };
 		ABAFA0E318F3800E005C68BB /* ChatContentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatContentObject.m; sourceTree = "<group>"; };
 		ABAFA0E518F3851E005C68BB /* ToolsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsObject.h; sourceTree = "<group>"; };
@@ -235,6 +239,9 @@
 				AB2DFD0C18F674B70075C1C2 /* ThemeLeftViewController.m */,
 				AB2DFD0E18F674D30075C1C2 /* ThemeRightViewController.h */,
 				AB2DFD0F18F674D30075C1C2 /* ThemeRightViewController.m */,
+				AB2DFD1318F69E890075C1C2 /* NotificationObject.h */,
+				AB2DFD1418F69E890075C1C2 /* NotificationObject.m */,
+				AB2DFD1618F69EA00075C1C2 /* ThemeHeader.h */,
 			);
 			path = ChangeTheme;
 			sourceTree = "<group>";
@@ -556,6 +563,7 @@
 				ABAFA0EA18F385F4005C68BB /* OpenAlertView.m in Sources */,
 				AB2DFD0718F673320075C1C2 /* ThemeBaseVIew.m in Sources */,
 				ABFAC85318EE76FF005F4009 /* BaseViewController.m in Sources */,
+				AB2DFD1518F69E890075C1C2 /* NotificationObject.m in Sources */,
 				ABAFA11B18F3AD3A005C68BB /* ChatNormalCell.m in Sources */,
 				ABFAC85018EE762F005F4009 /* CommonNavViewController.m in Sources */,
 				AB2DFCFC18F64B5E0075C1C2 /* ChatLabelCell.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "ThemeBaseVIew.h"
+#import "ThemeHeader.h"
 
 @implementation ThemeBaseVIew
 - (void)dealloc
@@ -25,8 +26,8 @@
 
 - (void)changeUI:(id)object
 {
-    NSNotification *noti = (NSNotification *)object;
-    self.backgroundColor =(UIColor *)noti.object;
+    NotificationObject *noti = (NotificationObject *)object;
+    self.backgroundColor = noti.color;
 }
 
 /*

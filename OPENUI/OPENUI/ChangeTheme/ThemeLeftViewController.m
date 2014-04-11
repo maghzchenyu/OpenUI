@@ -8,6 +8,7 @@
 
 #import "ThemeLeftViewController.h"
 #import "ThemeBaseVIew.h"
+#import "ThemeBaseButton.h"
 
 @interface ThemeLeftViewController ()
 
@@ -30,6 +31,7 @@
 	// Do any additional setup after loading the view.
     ThemeBaseVIew *baseView = [[ThemeBaseVIew alloc] initWithFrame:CGRectMake(0, 0, 160, 160)];
     [self.view addSubview:baseView];
+    
 }
 
 - (void)didReceiveMemoryWarning

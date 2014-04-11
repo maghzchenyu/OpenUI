@@ -8,6 +8,7 @@
 
 #import "ThemeRightViewController.h"
 #import "Header.h"
+#import "ThemeHeader.h"
 
 @interface ThemeRightViewController ()
 @property (nonatomic, strong) NSArray *data;
@@ -33,7 +34,6 @@
     table.dataSource = self;
     [self.view addSubview:table];
     self.data = [NSArray arrayWithObjects:@"red",@"blue",@"yellow",nil];
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,17 +66,17 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UIColor *color = nil;
+    NotificationObject *object = [[NotificationObject alloc] init];
     if (indexPath.row == 0){
-        color = [UIColor redColor];
+        object.color = [UIColor redColor];
     }else if( indexPath.row==1 ){
-        color = [UIColor blueColor];
+        object.color = [UIColor blueColor];
     }else if ( indexPath.row==2 ){
-        color = [UIColor yellowColor];
+        object.color = [UIColor yellowColor];
     }else{
         return;
     }
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"ChangeUIStyle" object:color];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"ChangeUIStyle" object:object];
     OpenAlertView *alert = [[OpenAlertView alloc] initWithContent:@"设置完成"];
     [alert show];
 }
